@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.conatiner {
+    height: 100vh;
+    width: 100%;
+    background: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 20px;
+    margin: 30px;
+    width: 300px;
+    background: aliceblue;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    color: green;
+    box-shadow: 10px 10px 10px -1px rgba(31, 31, 33, 0.2),
+        -10px -10px 10px -1px rgba(17, 16, 16, 0.3);
+}
+
+.end {
+    color: red;
+    box-shadow: inset 10px 10px 10px -1px rgba(31, 31, 33, 0.2),
+        inset -10px -10px 10px -1px rgba(17, 16, 16, 0.3);
+}
+
+button i {
+    margin-right: 15px;
+}
